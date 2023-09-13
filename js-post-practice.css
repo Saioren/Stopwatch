@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(15, 15, 15);
+    display: grid;
+    justify-content: center;
+    font-family: arial;
+}
+.timer-count {
+    color: white;
+    font-size: 100px;
+margin: 0px;
+justify-content: center;
+display: flex;
+}
+.start-button, .stop-button, .reset-button {
+    border: none;
+    background-color: rgb(0, 253, 114);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    display: block;
+   width: 100px;
+}
